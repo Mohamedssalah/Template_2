@@ -1,14 +1,27 @@
+@media only screen and (max-width: 600px){
+  .header .logo{
+    margin-left:-20px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .header p{
+    margin-right:-20px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .bacgrawend {
     background-image: url(/Images/bg-hero-mobile.svg);
     background-size: cover;
+    max-width:100%;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .page1 .image img {
     max-width: 99%;
-    margin-left: 17.5px;
+    margin-left: 9.5px;
     margin-top: 40px;
+    height:320px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -16,9 +29,11 @@
     max-width: 90%;
     text-align: center;
     margin: auto;
+    
   }
   .page1 .titel .border {
     max-width: 90%;
+    margin-left:17px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -26,6 +41,7 @@
     text-align: center;
     margin: auto;
     order: 1;
+     max-width:90%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -33,6 +49,7 @@
     text-align: center;
     margin: auto;
     order: 0;
+     max-width:90%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -40,24 +57,25 @@
     text-align: center;
     margin: auto;
     order: 1;
+     max-width:90%;
   }
 }
 @media only screen and (max-width: 600px) {
   .templet1 .image img {
-    margin-left: 40px;
-    max-width: 80%;
+    margin-left: 0px;
+    max-width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
   .templet2 .image img {
-    margin-left: 40px;
-    max-width: 80%;
+    margin-left: 0px;
+    max-width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
   .templet3 .image img {
-    margin-left: 40px;
-    max-width: 80%;
+    margin-left: 0px;
+    max-width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -68,5 +86,12 @@
   }
   .templetbutton .conteaner p {
     max-width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .social {
+    margin-left: 78px;
+    max-width: 30px;
+    margin-bottom:5px;
   }
 }
